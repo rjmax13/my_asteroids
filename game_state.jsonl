@@ -1,12 +1,5 @@
-{"timestamp": "17:01:23.702", "elapsed_s": 1, "frame": 60, "screen_size": [1280, 720]}
-{"timestamp": "17:01:24.672", "elapsed_s": 1, "frame": 120, "screen_size": [1280, 720]}
-{"timestamp": "17:01:25.642", "elapsed_s": 2, "frame": 180, "screen_size": [1280, 720]}
-{"timestamp": "17:01:26.614", "elapsed_s": 3, "frame": 240, "screen_size": [1280, 720]}
-{"timestamp": "17:01:27.588", "elapsed_s": 4, "frame": 300, "screen_size": [1280, 720]}
-{"timestamp": "17:01:28.559", "elapsed_s": 5, "frame": 360, "screen_size": [1280, 720]}
-{"timestamp": "17:01:29.528", "elapsed_s": 6, "frame": 420, "screen_size": [1280, 720]}
-{"timestamp": "17:01:30.495", "elapsed_s": 7, "frame": 480, "screen_size": [1280, 720]}
-{"timestamp": "17:01:31.465", "elapsed_s": 8, "frame": 540, "screen_size": [1280, 720]}
-{"timestamp": "17:01:32.439", "elapsed_s": 9, "frame": 600, "screen_size": [1280, 720]}
-{"timestamp": "17:01:33.412", "elapsed_s": 10, "frame": 660, "screen_size": [1280, 720]}
-{"timestamp": "17:01:34.384", "elapsed_s": 11, "frame": 720, "screen_size": [1280, 720]}
+{"timestamp": "22:20:55.428", "elapsed_s": 1, "frame": 60, "screen_size": [1280, 720], "player": {"type": "Player", "pos": [640.0, 360.0], "vel": [0.0, 0.0], "rad": 20, "rot": 0}}
+{"timestamp": "22:20:56.407", "elapsed_s": 1, "frame": 120, "screen_size": [1280, 720], "player": {"type": "Player", "pos": [640.0, 360.0], "vel": [0.0, 0.0], "rad": 20, "rot": 0}}
+{"timestamp": "22:20:57.379", "elapsed_s": 2, "frame": 180, "screen_size": [1280, 720], "player": {"type": "Player", "pos": [640.0, 360.0], "vel": [0.0, 0.0], "rad": 20, "rot": 0}}
+{"timestamp": "22:20:58.343", "elapsed_s": 3, "frame": 240, "screen_size": [1280, 720], "player": {"type": "Player", "pos": [640.0, 360.0], "vel": [0.0, 0.0], "rad": 20, "rot": 0}}
+{"timestamp": "22:20:59.307", "elapsed_s": 4, "frame": 300, "screen_size": [1280, 720], "player": {"type": "Player", "pos": [640.0, 360.0], "vel": [0.0, 0.0], "rad": 20, "rot": 0}}
