@@ -1,6 +1,6 @@
 import pygame
 from player import Player
-from  constants import  SCREEN_WIDTH, SCREEN_HEIGHT
+from  constants import  SCREEN_WIDTH, SCREEN_HEIGHT, PLAYER_TURN_SPEED
 from  logger import log_state
 
 
@@ -19,7 +19,12 @@ def main():
     print(f"Screen height: 720")
     """
 
+    
+    updatable = pygame.sprite.Group()
+    drawable = pygame.sprite.Group()
+    Player.containers = (updatable, drawable)
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+
 
     while True:
         log_state()
@@ -30,7 +35,11 @@ def main():
         dt = clock.tick(60) / 1000
         # print(dt)
         screen.fill("black")
-        player.draw(screen)
+        
+        for drawable_object in drawable:
+            drawable_object.draw(screen)
+
+        updatable.update(dt)
         pygame.display.flip()
 
 if __name__ == "__main__":
