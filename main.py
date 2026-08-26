@@ -54,10 +54,19 @@ def main():
 
         # iterate over all asteroids
         for all_asteroids in asteroids:
+            # check for collisions between the player and each asteroid
             if player.collides_with(all_asteroids):
                 log_event("player_hit")
                 print("Game over!")
                 sys.exit()
+            
+        # check for collisions between shots and asteroids
+        for shot in shots:
+            for all_asteroids in asteroids:
+                if shot.collides_with(all_asteroids):
+                    log_event("asteroid_shot")
+                    shot.kill()
+                    all_asteroids.split()
 
         pygame.display.flip()
 
