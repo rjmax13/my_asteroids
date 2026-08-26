@@ -16,6 +16,18 @@ class CircleShape(pygame.sprite.Sprite):
         self.velocity = pygame.Vector2(0, 0)
         self.radius = radius
 
+    def collides_with(self, other) -> bool:
+        distance = self.position.distance_to(other.position)
+        combined_radius = self.radius + other.radius
+
+        #detect collison
+        if distance <= combined_radius:
+            return True
+        else:
+            return False
+
+    
+    
     def draw(self, screen: pygame.Surface) -> None:
         # must override
         pass
